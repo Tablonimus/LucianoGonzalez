@@ -31,8 +31,8 @@ export default function Contact() {
             className="drop-shadow-2xl object-contain top-0 absolute w-96 h-96"
           /> */}
         </div>
-        <div className="flex justify-around md:justify-center md:gap-14 w-full items-center text-white">
-          <a href="https://www.instagram.com/luchogonzalez.07/" target="_blank">
+        <div className="flex justify-around  md:gap-14 w-full items-center text-white">
+          <a href="https://www.instagram.com/luchogonzalez.07/" target="_blank" className="w-1/3">
             <section className="flex flex-col gap-2 items-center">
               <img
                 src={insta}
@@ -43,7 +43,7 @@ export default function Contact() {
             </section>
           </a>
 
-          <a href="mailto:lucianonigonzalez@gmail.com" target="_blank">
+          <a href="mailto:lucianonigonzalez@gmail.com" target="_blank" className="w-1/3">
             <section className="flex flex-col gap-2 items-center">
               <img
                 src={gmail}
@@ -55,7 +55,7 @@ export default function Contact() {
               </span>
             </section>
           </a>
-          <a href="https://www.facebook.com/luchooo.7" target="_blank">
+          <a href="https://www.facebook.com/luchooo.7" target="_blank" className="w-1/3">
             <section className="flex flex-col gap-2 items-center">
               <img
                 src={face}

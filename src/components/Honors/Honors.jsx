@@ -1,13 +1,9 @@
 import React from "react";
-import { Carousel } from "flowbite-react";
-import copa from "../../assets/player/bio-copa.png";
 import palmaV from "../../assets/logos/palmaV.png";
 import mzaColor from "../../assets/logos/mza-color.svg";
 import usaColor from "../../assets/logos/usa-color.svg";
 import cafColor from "../../assets/logos/cafs-color.svg";
 
-import trays from "./trays.json";
-import honors from "./hono.json";
 import "./honorsStyles.css";
 
 export default function Honors() {
@@ -37,62 +33,6 @@ export default function Honors() {
       </div>
 
       <img src={palmaV} alt="" className="object-cover rounded-lg" />
-      {/* <div className="w-11/12 h-96 p-2 rounded-lg">
-        <Carousel indicators={true}>
-          <div className="bg-gray-500 w-full rounded-md drop-shadow-2xl h-96 p-2">
-            <span className="font-bold ">TRAYECTORIA</span>
-
-            <ul>
-              {trays.map((tray, index) => (
-                <li key={index} className="pr-">
-                  <span className="text-[10px]">▪ {tray}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className="bg-white w-full rounded-md drop-shadow-2xl h-96  p-2">
-            <span className="font-bold ">PALMARÉS</span>
-
-            <ul>
-              {honors.map((tray, index) => (
-                <li key={index} className="pr-32">
-                  <span className="text-[10px]">▪ {tray}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </Carousel>
-      </div> */}
-
-      {/* <div className=" bg-white rounded-md drop-shadow-2xl w-2/3 p-2">
-        <span className="font-bold ">TRAYECTORIA</span>
-
-        <ul>
-          {trays.map((tray, index) => (
-            <li key={index} className="pr-0">
-              <span className="text-[10px]">▪ {tray}</span>
-            </li>
-          ))}
-        </ul>
-      </div> */}
-      {/* <img
-        src={copa}
-        alt=""
-        className="absolute object-contain w-[11rem] right-[1rem] top-56 z-30"
-      /> */}
-      {/* <div className="relative bg-white rounded-md drop-shadow-2xl w-2/3 p-2">
-        <span className="font-bold ">PALMARÉS</span>
-
-        <ul>
-          {honors.map((tray, index) => (
-            <li key={index} className="pr-5">
-              <span className="text-[10px]">▪ {tray}</span>
-            </li>
-          ))}
-        </ul>
-      </div> */}
-
-      {/* LISTA */}
     </div>
   );
 }
