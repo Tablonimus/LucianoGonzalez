@@ -16,7 +16,7 @@ export default function AboutUs() {
         <div className="flex justify-center ">
           <div className=" relative flex flex-col h-56 md:h-96 w-10/12  md:w-8/12 bg-white/80 p-2 rounded-lg ">
             <section className="flex flex-col gap-2 justify-between items-center h-full text-black py-2">
-            <span className="text-center italic text-sm md:text-3xl font-smibold">
+            <span className=" text-center italic text-sm md:text-3xl font-smibold ">
                 CONVERTITE EN PROFESIONAL
               </span>
               <a

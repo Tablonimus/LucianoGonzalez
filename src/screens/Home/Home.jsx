@@ -1,7 +1,7 @@
 import React from "react";
 import festejo from "../../assets/player/portada-festejo.png";
-import gambeta from "../../assets/player/portada-gambeta.png";
-import señala from "../../assets/player/portada-señala.png";
+import gambeta from "../../assets/player/portada-gambetaR.png";
+import señala from "../../assets/player/portada-señalaR.png";
 import usa from "../../assets/images/usa.svg";
 import Bio from "../../components/Bio/Bio";
 import Video from "../../components/Video/Video";
@@ -9,8 +9,8 @@ import Images from "../../components/Images/Images";
 import textoNombre from "../../assets/images/textoNombre.png";
 import Honors from "../../components/Honors/Honors";
 import AboutUs from "../../components/AboutUs/AboutUs";
-import "./homeStyles.css";
 import Contact from "../../components/Contact/Contact";
+import "./homeStyles.css";
 
 export default function Home() {
   return (
@@ -58,7 +58,7 @@ export default function Home() {
           <Honors />
           <Images />
           <Contact />
-     
+
           <AboutUs />
         </div>
       </scroll-container>
