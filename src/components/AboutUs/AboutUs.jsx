@@ -13,7 +13,7 @@ export default function AboutUs() {
             {/* BACGROUND CONTAINER */}
           </div>
         </div>
-        <div className="flex justify-center  bg-[white] rounded-lg">
+        <div className="bg-point flex justify-center  bg-[white] rounded-lg">
           <div className=" relative flex flex-col items-center h-56 md:h-96 w-10/12  md:w-8/12  p-2 rounded-lg ">
             <section className="flex flex-col gap-2 justify-between items-center h-full text-black py-2">
               <span className=" text-center italic text-sm md:text-3xl font-smibold ">

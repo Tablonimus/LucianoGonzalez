@@ -33,7 +33,7 @@ export default function Images() {
           {/* BACGROUND CONTAINER */}
         </div>
       </div>
-      <div className="h-96 bg-[#031020] md:h-[50em] overflow-hidden ">
+      <div className="bg-point h-96 bg-[#031020] md:h-[50em] overflow-hidden ">
         <Carousel indicators={true}>
           <img
             src={dv1}
