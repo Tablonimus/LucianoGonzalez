@@ -1,0 +1,47 @@
+.honor-card {
+  background: #e2e2e2;
+  background: -moz-linear-gradient(
+    top,
+    #e2e2e2 0%,
+    #d1d1d1 0%,
+    #dbdbdb 32%,
+    #fefefe 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, #e2e2e2),
+    color-stop(0%, #d1d1d1),
+    color-stop(32%, #dbdbdb),
+    color-stop(100%, #fefefe)
+  );
+  background: -webkit-linear-gradient(
+    top,
+    #e2e2e2 0%,
+    #d1d1d1 0%,
+    #dbdbdb 32%,
+    #fefefe 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    #e2e2e2 0%,
+    #d1d1d1 0%,
+    #dbdbdb 32%,
+    #fefefe 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    #e2e2e2 0%,
+    #d1d1d1 0%,
+    #dbdbdb 32%,
+    #fefefe 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    #e2e2e2 0%,
+    #d1d1d1 0%,
+    #dbdbdb 32%,
+    #fefefe 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+}

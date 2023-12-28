@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.info{font-family: 'Anton', sans-serif;}
+
+.img-container {
+    background-image: url("../../assets/logos/mza.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
